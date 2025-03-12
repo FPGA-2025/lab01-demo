@@ -16,7 +16,7 @@ O código está praticamente pronto, apenas existe um comentário na parte da im
 
 ### Passo 3
 
-O código pode ser compilado com o comando `iverilog`. Para facilitar sua implementação, existe um script chamado `run.sh` que não só compila como também executa os testes. Execute o script. Ele deve imprimir uma mensagem de sucesso.
+O código pode ser compilado com o comando `iverilog` ([Icarus Verilog](https://github.com/steveicarus/iverilog)). Para facilitar sua implementação, existe um script chamado `run.sh` que não só compila como também executa os testes. Execute o script. Ele deve imprimir uma mensagem de sucesso.
 
 ## Como funciona o código?
 

@@ -23,3 +23,15 @@ O código pode ser compilado com o comando `iverilog` ([Icarus Verilog](https://
 Você tem uma descrição em Verilog que é convertida em um programa capaz de simular o circuito. Para que o circuito seja verificado, é necessário que sejam feitos testes. No nosso exemplo simples, os testes nada mais são que pares de entradas e aguardar um tempo para a saída ser gerada.
 
 Todas as saídas são impressas na tela mas o script `run.sh` as salva dentro da pasta test. Esse arquivo de saída será comparado com o arquivo de saída esperado. Caso os dois sejam iguais, o teste será considerado bem sucedido.
+
+## Como enviar para o Github Classroom?
+
+Se você chegou a esse laboratório através do GitHub Classroom, você tem um repositório que é a cópia do original e é capaz de executar os testes localmente e também remotamente.
+
+Para enviar seu código, não se esqueça de fazer um commit e push. O GitHub Actions irá rodar os testes e verificar se o seu código está correto.
+
+```bash
+git commit  -m "Corrigi o código removendo o comentário da linha do assign"
+git push
+```
+
